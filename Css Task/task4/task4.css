@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100vh;
+  }
+  
+  .sidebar-header {
+    background-color: #4A154B;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar-header h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .sidebar-nav li:last-child {
+    border-bottom: none;
+  }
+  
+  .sidebar-nav li a {
+    color: #4A154B;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav li a:hover {
+    background-color: #ddd;
+  }
+
+  ul :first-child{
+    max-height: 50px;
+    ;
+  }
